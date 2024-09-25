@@ -17,12 +17,14 @@ document
       div.classList.add("rounded-lg");
       div.classList.add("border-2");
       div.classList.add("text-xl");
-      div.innerHTML = `added: ${addMoney} TK. Balance: ${newBalance}`;
+      div.classList.add("px-8");
+      div.classList.add("py-8");
+      div.innerHTML = ` ${addMoney} Taka is Donated for Flood at Noakhali, Bangladesh `;
 
       // common function
       document.getElementById("history-contents").appendChild(div);
     } else {
-      alert("failed");
+      alert("Invalid Donation Amount");
     }
   });
 
@@ -45,12 +47,12 @@ document
       div.classList.add("rounded-lg");
       div.classList.add("border-2");
       div.classList.add("text-xl");
-      div.innerHTML = `added: ${addMoney} TK. Balance: ${newBalance}`;
+      div.innerHTML = ` ${addMoney} Taka is Donated for Flood at Feni, Bangladesh `;
 
       // common function
       document.getElementById("history-contents").appendChild(div);
     } else {
-      alert("failed");
+      alert("Invalid Donation Amount");
     }
   });
 
@@ -73,11 +75,11 @@ document
       div.classList.add("rounded-lg");
       div.classList.add("border-2");
       div.classList.add("text-xl");
-      div.innerHTML = `added: ${addMoney} TK. Balance: ${newBalance}`;
+      div.innerHTML = ` ${addMoney} Taka is Donated for Quota Movement `;
 
       // common function
       document.getElementById("history-contents").appendChild(div);
     } else {
-      alert("failed");
+      alert("Invalid Donation Amount");
     }
   });

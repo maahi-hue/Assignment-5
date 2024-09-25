@@ -1,6 +1,6 @@
-document.getElementById("index").addEventListener("click", function () {
-  showSectionById("index-section");
+document.getElementById("btn-1").addEventListener("click", function () {
+  showSectionById("index-page");
 });
-document.getElementById("history").addEventListener("click", function () {
-  showSectionById("history-section");
+document.getElementById("btn-2").addEventListener("click", function () {
+  showSectionById("history-page");
 });
